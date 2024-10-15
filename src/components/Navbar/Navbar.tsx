@@ -8,7 +8,7 @@ import { FaPaw, FaPeopleGroup } from "react-icons/fa6";
 
 export default function Navbar() {
   const pathname = usePathname();
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   useEffect(() => {
     const closeMenu = () => {
