@@ -33,7 +33,7 @@ export default function Footer() {
         Siga a gente nas redes sociais!
       </h1>
 
-      <ul className="flex gap-8">
+      <ul className="flex gap-8 flex-wrap">
         {
           links.map(link => (
             <li key={link.text}>
